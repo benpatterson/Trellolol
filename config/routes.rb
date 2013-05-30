@@ -1,4 +1,6 @@
 Trellolol::Application.routes.draw do
+  get "throughput/index"
+
   resources :boards
 
   resources :authorizations
